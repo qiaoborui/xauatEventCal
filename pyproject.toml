@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "xauateventcal"
+version = "0.1.0"
+description = ""
+authors = ["Borui <39862938+qiaoborui@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+icalendar = "^5.0.12"
+flask = "^3.0.3"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
